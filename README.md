@@ -5,7 +5,7 @@ This is a set of data for a project I'm making that concerns words and their div
 ## Data structure
 The data follows this structure,
 ```
-{
+"insuffrable": {
     "word": "insuffrable",
     "syllabic": [0, 2, 5, 8],
     "etymological": [0, 2, 7],
@@ -13,14 +13,14 @@ The data follows this structure,
     "root": ["suffer"],
     "suffix": ["able"]
 },
-
-{
+"disestablishmentarianism": {
     "word": "disestablishmentarianism",
-    "etymological": [0, 3, 13, 17, 22],
+    "syllabic": [0, 3, 5, 8, 12, 15, 18, 19, 20, 22, 24]
+    "etymological": [0, 3, 12, 17, 22],
     "prefix": ["dis"],
     "root": ["establish"],
     "suffix": ["ment", "arian", "ism"]
-}
+},
 ```
 
 There are 6 entries per word, those being:\
