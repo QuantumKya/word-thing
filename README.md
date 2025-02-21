@@ -6,21 +6,24 @@ This is a set of data for a project I'm making that concerns words and their div
 The data follows this structure,
 ```
 {
-    "word": "insuffrable",
-    "syllabic": [0, 2, 5, 8],
-    "etymological": [0, 2, 7],
-    "prefix": ["in"],
-    "root": ["suffer"],
-    "suffix": ["able"]
-},
-{
-    "word": "disestablishmentarianism",
-    "syllabic": [0, 3, 5, 8, 12, 15, 18, 19, 20, 22, 24]
-    "etymological": [0, 3, 12, 17, 22],
-    "prefix": ["dis"],
-    "root": ["establish"],
-    "suffix": ["ment", "arian", "ism"]
-},
+    "words": [
+    {
+       "word": "disestablishmentarianism",
+       "syllabic": [0, 3, 5, 8, 12, 15, 18, 19, 20, 22, 24],
+       "etymological": [0, 3, 12, 17, 22],
+       "prefix": ["dis"],
+       "root": ["establish"],
+       "suffix": ["ment", "arian", "ism"]
+    },
+    {
+       "word": "insuffrable",
+       "syllabic": [0, 2, 5, 8],
+       "etymological": [0, 2, 7],
+       "prefix": ["in"],
+       "root": ["suffer"],
+       "suffix": ["able"]
+   }
+]}
 ```
 
 There are 6 entries per word, those being:\
